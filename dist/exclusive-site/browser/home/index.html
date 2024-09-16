@@ -1,0 +1,325 @@
+<!DOCTYPE html><html lang="en" data-critters-container><head>
+  <meta charset="utf-8">
+  <title>ExclusiveSite</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<style>.header{display:flex;justify-content:space-between;align-items:center;padding:20px 50px;border-bottom:1px solid #e0e0e0}.header .logo{font-size:24px;font-weight:700}.header nav a{margin:0 15px;text-decoration:none;color:#000;font-weight:500;position:relative;font-size:18px}.header nav a:hover:after{content:"";position:absolute;width:100%;height:2px;background-color:#000;bottom:-5px;left:0}.header .search-bar{display:flex;align-items:center;position:relative}.header .search-bar input{padding:10px 15px;border:1px solid #e0e0e0;background-color:#f5f5f5;width:250px}.header .search-bar i{position:absolute;right:10px;color:#000}
+</style><link rel="stylesheet" href="styles-RDWKFRIM.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-RDWKFRIM.css"></noscript><style ng-app-id="ng">body[_ngcontent-ng-c2680710492] {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+        .header[_ngcontent-ng-c2680710492] {
+            background-color: #000;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 16px;
+        }
+        .header[_ngcontent-ng-c2680710492]   a[_ngcontent-ng-c2680710492] {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .top-bar[_ngcontent-ng-c2680710492] {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            border-bottom: 1px solid #eaeaea;
+        }
+        .top-bar[_ngcontent-ng-c2680710492]   .logo[_ngcontent-ng-c2680710492] {
+            font-size: 28px;
+            font-weight: 700;
+        }
+        .top-bar[_ngcontent-ng-c2680710492]   nav[_ngcontent-ng-c2680710492] {
+            display: flex;
+            gap: 30px;
+        }
+        .top-bar[_ngcontent-ng-c2680710492]   nav[_ngcontent-ng-c2680710492]   a[_ngcontent-ng-c2680710492] {
+            color: #000;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 18px;
+            position: relative;
+        }
+        .top-bar[_ngcontent-ng-c2680710492]   nav[_ngcontent-ng-c2680710492]   a[_ngcontent-ng-c2680710492]:hover::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: #000;
+            bottom: -5px;
+            left: 0;
+        }
+        .top-bar[_ngcontent-ng-c2680710492]   .search-bar[_ngcontent-ng-c2680710492] {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            position: relative;
+        }
+        .top-bar[_ngcontent-ng-c2680710492]   .search-bar[_ngcontent-ng-c2680710492]   input[_ngcontent-ng-c2680710492] {
+            padding: 10px 40px 10px 20px;
+            border: 1px solid #eaeaea;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .top-bar[_ngcontent-ng-c2680710492]   .search-bar[_ngcontent-ng-c2680710492]   i[_ngcontent-ng-c2680710492] {
+            position: absolute;
+            right: 10px;
+            font-size: 18px;
+            color: #000;
+        }
+        .top-bar[_ngcontent-ng-c2680710492]   .icons[_ngcontent-ng-c2680710492] {
+            display: flex;
+            gap: 20px;
+        }
+        .top-bar[_ngcontent-ng-c2680710492]   .icons[_ngcontent-ng-c2680710492]   i[_ngcontent-ng-c2680710492] {
+            font-size: 24px;
+            color: #000;
+        }
+        .sidebar[_ngcontent-ng-c2680710492] {
+            width: 220px;
+            padding: 20px;
+            border-right: 1px solid #eaeaea;
+        }
+        .sidebar[_ngcontent-ng-c2680710492]   ul[_ngcontent-ng-c2680710492] {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar[_ngcontent-ng-c2680710492]   ul[_ngcontent-ng-c2680710492]   li[_ngcontent-ng-c2680710492] {
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .sidebar[_ngcontent-ng-c2680710492]   ul[_ngcontent-ng-c2680710492]   li[_ngcontent-ng-c2680710492]   a[_ngcontent-ng-c2680710492] {
+            color: #000;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 16px;
+        }
+        .main-content[_ngcontent-ng-c2680710492] {
+            padding: 20px;
+            flex-grow: 1;
+        }
+        .banner[_ngcontent-ng-c2680710492] {
+            position: relative;
+            background-image: url('https://www.iphone.com.pk/gallary/202307122837slider-1.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 40px;
+            text-align: left;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 300px;
+        }
+        .banner[_ngcontent-ng-c2680710492]   .text[_ngcontent-ng-c2680710492] {
+            max-width: 50%;
+        }
+        .banner[_ngcontent-ng-c2680710492]   .text[_ngcontent-ng-c2680710492]   h1[_ngcontent-ng-c2680710492] {
+            font-size: 48px;
+            margin: 0;
+        }
+        .banner[_ngcontent-ng-c2680710492]   .text[_ngcontent-ng-c2680710492]   p[_ngcontent-ng-c2680710492] {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .banner[_ngcontent-ng-c2680710492]   .text[_ngcontent-ng-c2680710492]   a[_ngcontent-ng-c2680710492] {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .flash-sales[_ngcontent-ng-c2680710492] {
+            margin-top: 40px;
+        }
+        .flash-sales-header[_ngcontent-ng-c2680710492] {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .flash-sales[_ngcontent-ng-c2680710492]   h2[_ngcontent-ng-c2680710492] {
+            font-size: 28px;
+            font-weight: 700;
+            margin: 0;
+        }
+        .flash-sales[_ngcontent-ng-c2680710492]   .today[_ngcontent-ng-c2680710492] {
+            display: inline-block;
+            background-color: #ff0000;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .flash-sales[_ngcontent-ng-c2680710492]   .timer[_ngcontent-ng-c2680710492] {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+        .flash-sales[_ngcontent-ng-c2680710492]   .timer[_ngcontent-ng-c2680710492]   .time-box[_ngcontent-ng-c2680710492] {
+            background-color: #f8f8f8;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .flash-sales[_ngcontent-ng-c2680710492]   .timer[_ngcontent-ng-c2680710492]   .time-box[_ngcontent-ng-c2680710492]   span[_ngcontent-ng-c2680710492] {
+            display: block;
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .flash-sales[_ngcontent-ng-c2680710492]   .products[_ngcontent-ng-c2680710492] {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+       .view-all-products[_ngcontent-ng-c2680710492] {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .view-all-products[_ngcontent-ng-c2680710492]   button[_ngcontent-ng-c2680710492] {
+            background-color: #ff0000;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .view-all-products[_ngcontent-ng-c2680710492]   button[_ngcontent-ng-c2680710492]:hover {
+            background-color: #cc0000;
+        }
+
+        .flash-sales[_ngcontent-ng-c2680710492]   .product[_ngcontent-ng-c2680710492] {
+            width: calc(25% - 20px);
+            border: 1px solid #eaeaea;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+        }
+        .flash-sales[_ngcontent-ng-c2680710492]   .product[_ngcontent-ng-c2680710492]   img[_ngcontent-ng-c2680710492] {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .flash-sales[_ngcontent-ng-c2680710492]   .product[_ngcontent-ng-c2680710492]   .discount[_ngcontent-ng-c2680710492] {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #ff0000;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+        .flash-sales[_ngcontent-ng-c2680710492]   .product[_ngcontent-ng-c2680710492]   .wishlist[_ngcontent-ng-c2680710492] {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 18px;
+            color: #000;
+        }
+        .flash-sales[_ngcontent-ng-c2680710492]   .product[_ngcontent-ng-c2680710492]   .name[_ngcontent-ng-c2680710492] {
+            font-size: 16px;
+            font-weight: 500;
+            margin: 10px 0;
+        }
+        .flash-sales[_ngcontent-ng-c2680710492]   .product[_ngcontent-ng-c2680710492]   .price[_ngcontent-ng-c2680710492] {
+            font-size: 18px;
+            font-weight: 700;
+            color: #ff0000;
+        }
+        .flash-sales[_ngcontent-ng-c2680710492]   .navigation[_ngcontent-ng-c2680710492] {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .flash-sales[_ngcontent-ng-c2680710492]   .navigation[_ngcontent-ng-c2680710492]   i[_ngcontent-ng-c2680710492] {
+            font-size: 24px;
+            color: #000;
+        }</style><style ng-app-id="ng">@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+         .container[_ngcontent-ng-c2680710492] {
+             display: flex;
+             align-items: center;
+             justify-content: space-between;
+             padding: 40px 20px;
+             background-color: black;
+             margin-right: 90px;
+             border-radius: 20px;
+             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+             margin-bottom: 90px;
+         }
+         .text-section[_ngcontent-ng-c2680710492] {
+             max-width: 50%;
+             margin-left: 10%;
+         }
+         .text-section[_ngcontent-ng-c2680710492]   h1[_ngcontent-ng-c2680710492] {
+             font-size: 3em;
+             margin: 0;
+             color: white;
+         }
+         .text-section[_ngcontent-ng-c2680710492]   .features[_ngcontent-ng-c2680710492] {
+             display: flex;
+             gap: 20px;
+             margin: 20px 0;
+         }
+         .feature[_ngcontent-ng-c2680710492] {
+             background-color: #fff;
+             color: #000;
+             border-radius: 50%;
+             width: 80px;
+             height: 80px;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             flex-direction: column;
+             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+             font-weight: 600;
+             text-align: center;
+         }
+         .feature[_ngcontent-ng-c2680710492]   span[_ngcontent-ng-c2680710492] {
+             font-size: 0.8em;
+         }
+         .buy-now[_ngcontent-ng-c2680710492] {
+             background-color: #00ff00;
+             color: #000;
+             padding: 15px 30px;
+             border: none;
+             border-radius: 10px;
+             font-size: 1em;
+             cursor: pointer;
+             font-weight: 600;
+             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+             transition: background-color 0.3s ease;
+         }
+         .buy-now[_ngcontent-ng-c2680710492]:hover {
+             background-color: #00cc00;
+         }
+         .image-section[_ngcontent-ng-c2680710492] {
+             margin-right: 10%;
+         }
+         .image-section[_ngcontent-ng-c2680710492]   img[_ngcontent-ng-c2680710492] {
+             max-width: 100%;
+             height: auto;
+             box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5);
+             background: transparent;
+         }</style></head>
+<body><!--nghm-->
+  <app-root ng-version="17.3.12" ngh="1" ng-server-context="ssg"><div class="header"><div class="logo">Exclusive</div><nav><a routerlink="/home" href="/home">Home</a><a routerlink="/about" href="/about">About</a><a routerlink="/contact" href="/contact">Contact</a><a routerlink="/login" href="/login">Sign Up</a><a routerlink="/signup" href="/signup">Login</a></nav><div class="search-bar"><input placeholder="What are you looking for?" type="text"><i class="fas fa-search"></i></div></div><router-outlet></router-outlet><app-home _nghost-ng-c2680710492 ngh="0"><html _ngcontent-ng-c2680710492><head _ngcontent-ng-c2680710492><title _ngcontent-ng-c2680710492> Exclusive </title><link _ngcontent-ng-c2680710492 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"><link _ngcontent-ng-c2680710492 href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"><link _ngcontent-ng-c2680710492 href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"></head><body _ngcontent-ng-c2680710492><div _ngcontent-ng-c2680710492 style="display: flex;"><div _ngcontent-ng-c2680710492 class="sidebar"><ul _ngcontent-ng-c2680710492><li _ngcontent-ng-c2680710492><a _ngcontent-ng-c2680710492 href="#"> Woman's Fashion </a><i _ngcontent-ng-c2680710492 class="fas fa-chevron-right"></i></li><li _ngcontent-ng-c2680710492><a _ngcontent-ng-c2680710492 href="#"> Men's Fashion </a><i _ngcontent-ng-c2680710492 class="fas fa-chevron-right"></i></li><li _ngcontent-ng-c2680710492><a _ngcontent-ng-c2680710492 href="#"> Electronics </a><i _ngcontent-ng-c2680710492 class="fas fa-chevron-right"></i></li><li _ngcontent-ng-c2680710492><a _ngcontent-ng-c2680710492 href="#"> Home &amp; Lifestyle </a><i _ngcontent-ng-c2680710492 class="fas fa-chevron-right"></i></li><li _ngcontent-ng-c2680710492><a _ngcontent-ng-c2680710492 href="#"> Medicine </a><i _ngcontent-ng-c2680710492 class="fas fa-chevron-right"></i></li><li _ngcontent-ng-c2680710492><a _ngcontent-ng-c2680710492 href="#"> Sports &amp; Outdoor </a><i _ngcontent-ng-c2680710492 class="fas fa-chevron-right"></i></li><li _ngcontent-ng-c2680710492><a _ngcontent-ng-c2680710492 href="#"> Baby's &amp; Toys </a><i _ngcontent-ng-c2680710492 class="fas fa-chevron-right"></i></li><li _ngcontent-ng-c2680710492><a _ngcontent-ng-c2680710492 href="#"> Groceries &amp; Pets </a><i _ngcontent-ng-c2680710492 class="fas fa-chevron-right"></i></li><li _ngcontent-ng-c2680710492><a _ngcontent-ng-c2680710492 href="#"> Health &amp; Beauty </a><i _ngcontent-ng-c2680710492 class="fas fa-chevron-right"></i></li></ul></div><div _ngcontent-ng-c2680710492 class="main-content"><div _ngcontent-ng-c2680710492 class="banner"><div _ngcontent-ng-c2680710492 class="text"><h1 _ngcontent-ng-c2680710492> iPhone 14 Series </h1><p _ngcontent-ng-c2680710492> Up to 10% off Voucher </p><a _ngcontent-ng-c2680710492 href="#"> Shop Now <i _ngcontent-ng-c2680710492 class="fas fa-arrow-right"></i></a></div></div><div _ngcontent-ng-c2680710492 class="flash-sales"><div _ngcontent-ng-c2680710492 class="today"> Today's </div><div _ngcontent-ng-c2680710492 class="flash-sales-header"><h2 _ngcontent-ng-c2680710492> Flash Sales </h2><div _ngcontent-ng-c2680710492 class="timer"><div _ngcontent-ng-c2680710492 class="time-box"><span _ngcontent-ng-c2680710492> 03 </span> Days </div><div _ngcontent-ng-c2680710492 class="time-box"><span _ngcontent-ng-c2680710492> 23 </span> Hours </div><div _ngcontent-ng-c2680710492 class="time-box"><span _ngcontent-ng-c2680710492> 19 </span> Minutes </div><div _ngcontent-ng-c2680710492 class="time-box"><span _ngcontent-ng-c2680710492> 56 </span> Seconds </div></div></div><div _ngcontent-ng-c2680710492 class="products"><div _ngcontent-ng-c2680710492 class="product"><div _ngcontent-ng-c2680710492 class="discount"> -40% </div><div _ngcontent-ng-c2680710492 class="wishlist"><i _ngcontent-ng-c2680710492 class="far fa-heart"></i><i _ngcontent-ng-c2680710492 class="far fa-shopping-cart"></i></div><img _ngcontent-ng-c2680710492 alt="Red gaming controller with black buttons" height="200" src="https://placehold.co/200x200?text=Red+Gaming+Controller" width="200"><div _ngcontent-ng-c2680710492 class="name"> Red Gaming Controller </div><div _ngcontent-ng-c2680710492 class="price"> $100 </div></div><div _ngcontent-ng-c2680710492 class="product"><div _ngcontent-ng-c2680710492 class="discount"> -35% </div><div _ngcontent-ng-c2680710492 class="wishlist"><i _ngcontent-ng-c2680710492 class="far fa-heart"></i><i _ngcontent-ng-c2680710492 class="far fa-shopping-cart"></i></div><img _ngcontent-ng-c2680710492 alt="RGB mechanical keyboard with black keys" height="200" src="https://placehold.co/200x200?text=RGB+Mechanical+Keyboard" width="200"><div _ngcontent-ng-c2680710492 class="name"> RGB Mechanical Keyboard </div><div _ngcontent-ng-c2680710492 class="price"> $150 </div></div><div _ngcontent-ng-c2680710492 class="product"><div _ngcontent-ng-c2680710492 class="discount"> -30% </div><div _ngcontent-ng-c2680710492 class="wishlist"><i _ngcontent-ng-c2680710492 class="far fa-heart"></i><i _ngcontent-ng-c2680710492 class="far fa-shopping-cart"></i></div><img _ngcontent-ng-c2680710492 alt="Red dragon gaming mouse with black accents" height="200" src="https://placehold.co/200x200?text=Red+Dragon+Gaming+Mouse" width="200"><div _ngcontent-ng-c2680710492 class="name"> Red Dragon Gaming Mouse </div><div _ngcontent-ng-c2680710492 class="price"> $200 </div></div><div _ngcontent-ng-c2680710492 class="product"><div _ngcontent-ng-c2680710492 class="discount"> -25% </div><div _ngcontent-ng-c2680710492 class="wishlist"><i _ngcontent-ng-c2680710492 class="far fa-heart"></i><i _ngcontent-ng-c2680710492 class="far fa-shopping-cart"></i></div><img _ngcontent-ng-c2680710492 alt="Gray ergonomic office chair" height="200" src="https://placehold.co/200x200?text=Gray+Ergonomic+Office+Chair" width="200"><div _ngcontent-ng-c2680710492 class="name"> Gray Ergonomic Office Chair </div><div _ngcontent-ng-c2680710492 class="price"> $250 </div></div></div><div _ngcontent-ng-c2680710492 class="view-all-products"><button _ngcontent-ng-c2680710492> View All Products </button></div></div></div></div><body _ngcontent-ng-c2680710492><div _ngcontent-ng-c2680710492 class="container"><div _ngcontent-ng-c2680710492 class="text-section"><h1 _ngcontent-ng-c2680710492> Enhance Your Music Experience </h1><div _ngcontent-ng-c2680710492 class="features"><div _ngcontent-ng-c2680710492 class="feature"><span _ngcontent-ng-c2680710492> 24 </span><span _ngcontent-ng-c2680710492> HRS </span></div><div _ngcontent-ng-c2680710492 class="feature"><span _ngcontent-ng-c2680710492> 05 </span><span _ngcontent-ng-c2680710492> WATTS </span></div><div _ngcontent-ng-c2680710492 class="feature"><span _ngcontent-ng-c2680710492> 50 </span><span _ngcontent-ng-c2680710492> FT RANGE </span></div></div><button _ngcontent-ng-c2680710492 class="buy-now"> Buy Now! </button></div><div _ngcontent-ng-c2680710492 class="image-section"><img _ngcontent-ng-c2680710492 alt="Portable speaker with handle and control buttons" height="200" src="https://j6y9q7k7.rocketcdn.me/wp-content/uploads/2022/10/JBL-Boombox2000Crop.jpg" width="400"></div></div></body></body></html></app-home><!----></app-root>
+<script src="polyfills-SCHOHYNV.js" type="module"></script><script src="main-VU5Q77PF.js" type="module"></script>
+
+<script id="ng-state" type="application/json">{"__nghData__":[{},{"c":{"17":[{"i":"c2680710492","r":1}]}}]}</script></body></html>
